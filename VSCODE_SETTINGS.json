@@ -1,17 +1,34 @@
 {
-    "workbench.colorTheme": "Default Dark Modern",
-    "files.autoSave": "afterDelay",
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-      },
-    "prettier.jsxSingleQuote": true,
-    "prettier.singleQuote": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "[javascript]": {
+  "workbench.colorTheme": "Default Dark Modern",
+  "files.autoSave": "afterDelay",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.semi": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
-    
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "cmake.configureOnOpen": true,
+  "git.enableSmartCommit": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDelete": false,
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "codesandbox.currentWorkspace": "0f57ad71-ca29-475f-82b6-2f07dcfc690c",
+  "remote.SSH.remotePlatform": {
+    "sandbox.jhlw3l.csb": "linux",
+    "sandbox.p3jnmn.csb": "linux",
+    "sandbox.sh872v.csb": "linux"
+  },
+  "git.confirmSync": false
 }
-
